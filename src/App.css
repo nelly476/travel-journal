@@ -78,7 +78,12 @@ a:active {
   }
   .card--section {
     flex-direction: column;
-    margin: 1em;
+    margin: 0;
+    margin-bottom: 2em;
+    background-color: #f1f5f9;
+    -webkit-box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+    -moz-box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+    box-shadow: 0px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
   }
 
   img {
