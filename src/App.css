@@ -1,13 +1,11 @@
-body,
-html {
-  margin: 0;
-  /* display: flex; */
-  /* justify-content: center; */
-  width: 100vw;
+.App {
+  display: flex;
+  flex-direction: column;
 }
 
-.App {
-  width: 70%;
+.content {
+  width: 60%;
+  align-self: center;
 }
 
 * {
@@ -15,7 +13,9 @@ html {
 }
 
 img {
-  width: 100%;
+  width: 27%;
+  height: 13em;
+  object-fit: cover;
 }
 
 .navbar {
@@ -35,4 +35,38 @@ img {
 
 .card--section {
   display: flex;
+  column-gap: 1.5em;
+  margin: 2em;
+  align-items: center;
+}
+
+.location--section {
+  display: flex;
+  align-items: center;
+  column-gap: 1em;
+  margin-bottom: 0.3em;
+}
+
+.location--name {
+  display: flex;
+  letter-spacing: 3px;
+  color: gray;
+}
+
+.fa-location-dot {
+  color: rgb(255, 80, 80);
+  margin-right: 0.1em;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: gray;
+
+  font-size: 0.8rem;
+}
+
+.date--info {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
 }
