@@ -1,7 +1,8 @@
 function Navbar() {
   return (
     <div className="navbar">
-      <h1>My travel journey</h1>
+      <i className="fa-solid fa-earth-oceania"></i>
+      <h2>My travel journey</h2>
     </div>
   );
 }

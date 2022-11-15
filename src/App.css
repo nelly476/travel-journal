@@ -6,6 +6,10 @@ html {
   width: 100vw;
 }
 
+.App {
+  width: 70%;
+}
+
 * {
   margin: 0;
 }
@@ -15,6 +19,20 @@ img {
 }
 
 .navbar {
-  background-color: coral;
-  margin: 0 auto;
+  background-color: rgb(255, 80, 80);
+  text-align: center;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-earth-oceania {
+  font-size: 1.4rem;
+  margin-right: 0.2em;
+}
+
+.card--section {
+  display: flex;
 }
