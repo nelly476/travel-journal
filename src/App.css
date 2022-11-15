@@ -78,6 +78,8 @@ a:active {
   }
   .card--section {
     flex-direction: column;
+    padding: 0.3em;
+    padding-top: 1.7em;
     margin: 0;
     margin-bottom: 2em;
     background-color: #f1f5f9;
