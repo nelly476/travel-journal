@@ -45,6 +45,7 @@ img {
   align-items: center;
   column-gap: 1em;
   margin-bottom: 0.3em;
+  justify-content: center;
 }
 
 .location--name {
@@ -69,4 +70,25 @@ a:active {
 .date--info {
   margin-top: 2em;
   margin-bottom: 0.5em;
+}
+
+@media (max-width: 650px) {
+  .content {
+    width: 100%;
+    align-self: center;
+  }
+  .card--section {
+    flex-direction: column;
+    margin: 1em;
+  }
+
+  img {
+    width: 78%;
+  }
+
+  .info--section {
+    margin: 1.2em;
+    width: 100%;
+    text-align: center;
+  }
 }
